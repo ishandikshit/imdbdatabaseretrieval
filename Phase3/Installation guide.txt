@@ -1,0 +1,27 @@
+Welcome to my submission of Project Phase 1.
+
+####################################################################################################
+Requirements:
+To run the code, you need python 2.7.
+Install the most suitable python 2.7 version from
+                    https://www.python.org/download/releases/2.7/
+
+Linux generally comes with python 2.7 installed.
+
+To check if you have the required python version, type "python --version" in your command line and check.
+
+If you have installed python and it still doesn't work, add python path where python.exe file is located on windows
+environment variables and windows path. Instructions to follow can be found in the link
+
+                    https://stackoverflow.com/questions/3701646/how-to-add-to-the-pythonpath-in-windows-7
+
+Once python is installed, make sure you have pip installed. Python comes with pip.
+
+Dependencies needed for this to work are numpy and pandas
+
+They can be installed using the following commands once python 2.7 is running on cmd or terminal
+
+                    python -m pip install numpy
+                    python -m pip install pandas
+
+Once installed, you can go into the codes directory and run the commands for the tasks given below

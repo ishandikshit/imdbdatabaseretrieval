@@ -1,0 +1,71 @@
+## CSE 515 - Project Phase 2
+## Group number 2
+
+## System Requirements
+Python 2.7.9
+Python libraries
+	-scikit-learn
+	-numpy
+	-scikit-tensor
+	-numpy+mkl
+	-pandas
+Operating System: Mac/Windows/Linux
+
+## Instructions to run phase2 project
+
+#Task 1a
+Input Command: python GenreLatentSematics.py tag <model> <genre>
+Sample Command: python GenreLatentSematics.py tag pca Action
+
+#Task 1b
+Input Command: python GenreLatentSematics.py actor <model> <genre>
+Sample Command: python GenreLatentSematics.py actor pca Action
+
+#Task 1c
+Input Command: python task1c.py <actor-id>
+Sample Command: python task1c.py 3426176
+
+#Task 1d
+Input Command: python task1d.py <movie-id>
+Sample Command python task1d.py 5959
+
+#Task 2a
+Input Command: python task2a.py
+It will ask you what similarity metric to use to get the actor-actor similarity matrix
+Enter the desired similarity matrix and the output will be given
+It will also ask you if you want to ignore actors with whom no tags were associated
+Enter 0 to ignore, and anything else to consider them
+
+#Task 2b
+Input Command: python task2b.py
+No other prompts will be presented to the user
+
+#Task 2c
+Input Command: python Task2c.py
+No other prompts will be presented to the user
+
+#Task 2d
+Input Command: python Task2d.py
+No other prompts will be presented to the user
+
+#Task 3a
+Input Command: python task3a.py <actorid1> <actorid2>.....
+You can provide as many actor ids as you want as seed for the random walk
+
+It will ask you what similarity metric to use to get the actor-actor similarity matrix
+Enter the desired similarity matrix and the output will be given
+It will also ask you if you want to ignore actors with whom no tags were associated
+Enter 0 to ignore, and anything else to consider them
+
+Sample Command: python task3a.py 724992 1739265 1817602 2605571 2681348 3301462 3464199 485553 2672983 692749 1229838
+
+#Task 3b
+Input Command:python task3b.py <actorid1> <actorid2>.....
+You can provide as many actor ids as you want as seed for the random walk
+
+Sample Command: python task3b.py 724992 1739265 1817602 2605571 2681348 3301462 3464199 485553 2672983 692749 1229838
+
+#Task 4
+Input Command: python task4 <movie-id> … <movie-id>
+Sample Command: python task4.py 5959 4213
+NOTE: You can provide any number of movie id

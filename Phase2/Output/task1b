@@ -1,0 +1,30 @@
+ishans-air:Phase2 ishandikshit$ python GenreLatentSematics.py actor pca Action 
+------ACTOR PCA-----
+[-0.06766556 -0.06777983  0.02899617  0.15928516]
+
+Most contributing features per latent semantic: 
+Latent semantic 1: Bradshaw, Terry Bonham Carter, Helena Cardellini, Linda Carman, Michael
+Latent semantic 2: Astin, Sean Thomas, Eddie Kaye Sisto, Jeremy Page, Ellen
+Latent semantic 3: Smith, Soloman K. Paetkau, David Brooks, Avery Campbell, Jeremie
+Latent semantic 4: Walken, Christopher Duke, Bill LL Cool J Lamont, Ceilidh
+()
+ishans-air:Phase2 ishandikshit$ python GenreLatentSematics.py actor svd Action 
+------ACTOR SVD-----
+[ 0.02705674  0.13005811 -0.05888262  0.04078849]
+
+Most contributing features per latent semantic: 
+Latent semantic 1: Shaw, Fiona McDermott, Dylan Bradshaw, Terry Buscemi, Steve
+Latent semantic 2: Ice Cube Wood, Elijah Mainwaring, Cameron Cedric the Entertainer
+Latent semantic 3: Astin, Sean Atkins, Eileen Thomas, Eddie Kaye Sisto, Jeremy
+Latent semantic 4: Brooks, Avery Campbell, Jeremie Rutherford, Kelly Thompson, Tessa
+()
+ishans-air:Phase2 ishandikshit$ python GenreLatentSematics.py actor lda Action 
+------ACTOR LDA-----
+[ 0.07793077  0.07804327  0.76600197  0.078024  ]
+
+Most contributing features per latent semantic: 
+Latent semantic 1: Liotta, Ray Cassidy, Katie Anderson, Anthony Lamont, Ceilidh
+Latent semantic 2: Smart, Amy Nielsen, Connie Breslin, Abigail Hayek, Salma
+Latent semantic 3: Nighy, Bill Depp, Johnny Larter, Ali Epps, Mike
+Latent semantic 4: Lillard, Matthew Henson, Darrin Dewitt Rutherford, Kelly De Niro, Robert
+

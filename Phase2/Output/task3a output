@@ -1,0 +1,143 @@
+input actorids for seed: 1342347 396877 623809 3704908 2392683
+
+#################################################################################################################
+Output with Manhattan distance and only actors who have tags more than 0:
+
+Please input 1-5 to choose the similarity/distance measure to use for finding similarity:
+1: Manhattan Distance
+2: Cosine Similarity
+3: Cosine Distance
+4: Mahalanobis Distance
+5: Euclidean Distance
+Note: Anything besides these will automatically consider Cosine Similarity
+Enter here: 1
+
+Do you want to ignore actors with whom no tags were associated?
+0 to ignore, anything else to include: 0
+    actorid  pagerank                  name
+41  1297720  0.042547        [Leary, Denis]
+42  1309137  0.042547     [Leguizamo, John]
+48  1698048  0.042547        [Oldman, Gary]
+30  1014988  0.042547    [Hopkins, Anthony]
+88  3426176  0.042547     [Moore, Julianne]
+58  1953875  0.042547         [Romano, Ray]
+28   878356  0.042547  [Griffiths, Richard]
+54  1860883  0.042547   [Radcliffe, Daniel]
+80  2946264  0.042547         [Ferris, Pam]
+20   692749  0.038501      [Farrell, Colin]
+
+
+#################################################################################################################
+
+#################################################################################################################
+Output with Cosine Similarity and only actors who have tags more than 0:
+
+Please input 1-5 to choose the similarity/distance measure to use for finding similarity:
+1: Manhattan Distance
+2: Cosine Similarity
+3: Cosine Distance
+4: Mahalanobis Distance
+5: Euclidean Distance
+Note: Anything besides these will automatically consider Cosine Similarity
+Enter here: 2
+
+Do you want to ignore actors with whom no tags were associated?
+0 to ignore, anything else to include: 0
+     actorid  pagerank                     name
+102  3951524  0.008355  [Zeta-Jones, Catherine]
+52   1808442  0.008355             [Pitt, Brad]
+90   3544742  0.008355     [Pfeiffer, Michelle]
+65   2355195  0.008349    [Van Der Beek, James]
+46   1483828  0.008349       [McDermott, Dylan]
+37   1253701  0.008349        [Kutcher, Ashton]
+8     316365  0.008347         [Buscemi, Steve]
+3     128645  0.008347          [Baldwin, Alec]
+101  3900269  0.008347           [Wen, Ming-Na]
+93   3632088  0.008344        [Romijn, Rebecca]
+
+#################################################################################################################
+
+#################################################################################################################
+Output with Cosine distance and only actors who have tags more than 0:
+
+Please input 1-5 to choose the similarity/distance measure to use for finding similarity:
+1: Manhattan Distance
+2: Cosine Similarity
+3: Cosine Distance
+4: Mahalanobis Distance
+5: Euclidean Distance
+Note: Anything besides these will automatically consider Cosine Similarity
+Enter here: 3
+
+Do you want to ignore actors with whom no tags were associated?
+0 to ignore, anything else to include: 0
+    actorid  pagerank               name
+48  1698048  0.010863     [Oldman, Gary]
+75  2665816  0.010846     [Berry, Halle]
+80  2946264  0.010805      [Ferris, Pam]
+20   692749  0.010715   [Farrell, Colin]
+41  1297720  0.010688     [Leary, Denis]
+8    316365  0.010669   [Buscemi, Steve]
+50  1792455  0.010564    [Phifer, Mekhi]
+88  3426176  0.010447  [Moore, Julianne]
+49  1726318  0.010437   [Paetkau, David]
+22   713207  0.010427  [Fiennes, Joseph]
+
+#################################################################################################################
+
+#################################################################################################################
+Output with Mahalanobis distance and only actors who have tags more than 0:
+
+Please input 1-5 to choose the similarity/distance measure to use for finding similarity:
+1: Manhattan Distance
+2: Cosine Similarity
+3: Cosine Distance
+4: Mahalanobis Distance
+5: Euclidean Distance
+Note: Anything besides these will automatically consider Cosine Similarity
+Enter here: 4
+
+Do you want to ignore actors with whom no tags were associated?
+0 to ignore, anything else to include: 0
+    actorid  pagerank               name
+48  1698048  0.010895     [Oldman, Gary]
+75  2665816  0.010869     [Berry, Halle]
+80  2946264  0.010820      [Ferris, Pam]
+20   692749  0.010713   [Farrell, Colin]
+22   713207  0.010689  [Fiennes, Joseph]
+8    316365  0.010686   [Buscemi, Steve]
+41  1297720  0.010684     [Leary, Denis]
+50  1792455  0.010605    [Phifer, Mekhi]
+49  1726318  0.010551   [Paetkau, David]
+24   721841  0.010509      [Fisher, Tom]
+
+#################################################################################################################
+
+#################################################################################################################
+Output with Euclidean distance and only actors who have tags more than 0:
+
+Please input 1-5 to choose the similarity/distance measure to use for finding similarity:
+1: Manhattan Distance
+2: Cosine Similarity
+3: Cosine Distance
+4: Mahalanobis Distance
+5: Euclidean Distance
+Note: Anything besides these will automatically consider Cosine Similarity
+Enter here: 5
+
+Do you want to ignore actors with whom no tags were associated?
+0 to ignore, anything else to include: 0
+    actorid  pagerank               name
+48  1698048  0.010895     [Oldman, Gary]
+75  2665816  0.010869     [Berry, Halle]
+80  2946264  0.010820      [Ferris, Pam]
+20   692749  0.010713   [Farrell, Colin]
+22   713207  0.010689  [Fiennes, Joseph]
+8    316365  0.010686   [Buscemi, Steve]
+41  1297720  0.010684     [Leary, Denis]
+50  1792455  0.010605    [Phifer, Mekhi]
+49  1726318  0.010551   [Paetkau, David]
+24   721841  0.010509      [Fisher, Tom]
+
+
+#################################################################################################################

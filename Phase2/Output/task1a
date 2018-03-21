@@ -1,0 +1,31 @@
+ishans-air:Phase2 ishandikshit$ python GenreLatentSematics.py tag pca Action
+------TAG PCA-----
+[-0.05657456 -0.12396553 -0.06415925  0.10852901]
+
+Most contributing features per latent semantic: 
+Latent semantic 1: magic computer animation harry potter animation
+Latent semantic 2: world war ii best war films magic musicians
+Latent semantic 3: violent cannibalism psychology serial killer
+Latent semantic 4: zombies comedy espionage buddy movie
+()
+ishans-air:Phase2 ishandikshit$ python GenreLatentSematics.py tag svd Action
+------TAG SVD-----
+[ 0.0109186   0.07461418  0.18617845 -0.01866309]
+
+Most contributing features per latent semantic: 
+Latent semantic 1: magic computer animation harry potter animation
+Latent semantic 2: world war ii zombies best war films musicians
+Latent semantic 3: comic book superhero motorcycle family
+Latent semantic 4: violent cannibalism psychology serial killer
+()
+ishans-air:Phase2 ishandikshit$ python GenreLatentSematics.py tag lda Action
+------TAG LDA-----
+[ 0.11360466  0.65791705  0.11406699  0.1144113 ]
+
+Most contributing features per latent semantic: 
+Latent semantic 1: pointless action time travel hilarious
+Latent semantic 2: heroine in tight suit comic book superhero action
+Latent semantic 3: interesting best war films family atmospheric
+Latent semantic 4: cgi comic book world war ii best war films
+()
+

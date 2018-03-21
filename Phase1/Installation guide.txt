@@ -1,0 +1,76 @@
+Welcome to my submission of Project Phase 1.
+
+####################################################################################################
+Requirements:
+To run the code, you need python 2.7.
+Install the most suitable python 2.7 version from
+                    https://www.python.org/download/releases/2.7/
+
+Linux generally comes with python 2.7 installed.
+
+To check if you have the required python version, type "python --version" in your command line and check.
+
+If you have installed python and it still doesn't work, add python path where python.exe file is located on windows
+environment variables and windows path. Instructions to follow can be found in the link
+
+                    https://stackoverflow.com/questions/3701646/how-to-add-to-the-pythonpath-in-windows-7
+
+Once python is installed, make sure you have pip installed. Python comes with pip.
+
+Dependencies needed for this to work are numpy and pandas
+
+They can be installed using the following commands once python 2.7 is running on cmd or terminal
+
+                    python -m pip install numpy
+                    python -m pip install pandas
+
+Once installed, you can go into the codes directory and run the commands for the tasks given below
+
+
+####################################################################################################
+Execution:
+Task 1
+To run task 1, go to the Code directory, open a command line interface and enter command
+
+                    python print_actor_vector.py actorid model
+
+where actorid can be replaced by any integer from the list of actorids in the dataset
+and model can only take two values “tf” and “tfidf”
+
+
+Task 2
+To run task 2, go to the Code directory, open a command line interface and enter command
+
+                    python print_genre_vector.py genre model
+
+where genre can be replaced by any of the 19 genres from the list of genres in the dataset
+and model can only take two values “tf” and “tfidf”
+
+Task 3
+To run task 3, go to the Code directory, open a command line interface and enter command
+
+                    python print_user_vector.py userid model
+
+where userid can be replaced by any of the userids given the tags and ratings data in the
+dataset and model can only take two values “tf” and “tfidf”
+
+Task 4
+To run task 4, go to the Code directory, open a command line interface and enter command
+
+                    python differentiate_genre.py genre1 genre2 model
+
+where genre1 and genre2 can be replaced by any of the genres given the movies data in the
+dataset and model can only take values “tfidf”, “pdiff1” and “pdiff2”
+
+
+Task X
+To run all the tasks for all the possible options, I have created an option. This option will allow
+you to generate data for all the tasks and all possible input options and then store them in the
+output file. You can change the dataset and generate the output for all possible combinations
+and analyze them if you wish to. The command to enter on command line in Code directory is:
+
+                    python generate_all_output.py
+
+
+
+####################################################################################################
